@@ -17,7 +17,7 @@ const Project = ({id, left, topic, image, title, stacks, description}) => {
                             <h2>{title}</h2>
                             <h3>{stacks}</h3>
                             <p>{description}</p>
-                            <Links image={"/images/github.svg"} link={"https://br.pinterest.com/pin/1126814769316121171/"} title={"Ver projeto"} />
+                            <Links image={`${process.env.PUBLIC_URL}/images/github.svg`} link={"https://br.pinterest.com/pin/1126814769316121171/"} title={"Ver projeto"} />
                         </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ const Project = ({id, left, topic, image, title, stacks, description}) => {
                         <h2>{title}</h2>
                         <h3>{stacks}</h3>
                         <p>{description}</p>
-                        <Links image={"/images/github.svg"} link={"https://br.pinterest.com/pin/1126814769316121171/"} title={"Ver projeto"} />
+                        <Links image={`${process.env.PUBLIC_URL}/images/github.svg`} link={"https://br.pinterest.com/pin/1126814769316121171/"} title={"Ver projeto"} />
                     </div>
                 </div>
             </div>
