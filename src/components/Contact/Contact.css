@@ -1,0 +1,27 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    height: calc(100% + 200px);
+}
+
+.contact-text {
+    color: #FAFAFA;
+    text-align: start;
+    width: 50%;
+    max-width: 50%;
+}
+
+.contact-text p {
+    font-size: 1rem;
+    font-weight: lighter;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.contact-form {
+    width: 60%;
+    height: 60%;
+}

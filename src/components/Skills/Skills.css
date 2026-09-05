@@ -1,0 +1,41 @@
+.skills {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 100%;
+}
+
+.skills-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    margin: 0;
+    color: #FAFAFA;
+}
+
+.skills-text-container h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.skills-text-container p {
+    font-size: 1rem;
+    margin: 0;
+    margin-top: 15px;
+    font-weight: lighter;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+}

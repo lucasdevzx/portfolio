@@ -1,0 +1,25 @@
+.service-container {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    min-width: 100%;
+}
+
+.service-container hr {
+    width: 20%;
+    border: 1px solid #FAFAFA;
+    margin: 0px;
+    margin-bottom: 35px;
+}
+
+.service {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+h1 {
+    color: #FAFAFA;
+}

@@ -1,0 +1,19 @@
+.separate {
+    color: #FAFAFA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    font-family: "InputMono Nerd Font";
+    width: fit-content;
+}
+
+.separate hr {
+    width: 80px;
+    border: 1px solid #FAFAFA;
+    margin: 0;
+}

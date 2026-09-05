@@ -1,0 +1,29 @@
+.home {
+    height: 10vh;
+    min-height: 5vh;
+    min-width: 100%;
+    text-align: start;
+}
+
+.home p {
+    color: #FAFAFA;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.home h1 {
+    font-size: 4rem;
+    color: #FAFAFA;
+    font-weight: normal;
+    margin: 0;
+}
+
+.home h2 {
+    font-weight: lighter;
+    color: #FAFAFA;
+}
+
+.background-image {
+    min-width: 100%;
+    pointer-events: none;
+}
