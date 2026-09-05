@@ -9,19 +9,19 @@ const Service = ({id}) => {
             <div className={"service-container"}>
                 <div className={"service"}>
                     <Card
-                        image={"images/landing-page.svg"}
+                        image={`${process.env.PUBLIC_URL}/images/landing-page.svg`}
                         title={"Landing Pages"}
                         description={"Crio páginas modernas e responsivas para apresentar sua marca, produto ou serviço de forma simples e atrativa."}
                         check={"Design focado em conversão"}
                     />
                     <Card
-                        image={"images/code.svg"}
+                        image={`${process.env.PUBLIC_URL}/images/code.svg`}
                         title={"Aplicações Web"}
                         description={"Transformo ideias em aplicações web funcionais, intuitivas e pensadas para facilitar o dia a dia. "}
                         check={"Experiência do usuário intuitiva"}
                     />
                     <Card
-                        image={"images/server.svg"}
+                        image={`${process.env.PUBLIC_URL}/images/server.svg`}
                         title={"APIs & Backend"}
                         description={"Desenvolvo a parte por trás da aplicação, conectando dados, regras e funcionalidades de forma segura e organizada."}
                         check={"Segurança e escalabilidade"}

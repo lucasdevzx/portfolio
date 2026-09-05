@@ -40,7 +40,7 @@ const About = ({id}) => {
                         </p>
                     </div>
                     <div className={"image-container"}>
-                        <img src="/images/about-image.png" alt="Lucas"/>
+                        <img src={`${process.env.PUBLIC_URL}/images/about-image.png`} alt="Lucas"/>
                     </div>
                 </div>
         </div>

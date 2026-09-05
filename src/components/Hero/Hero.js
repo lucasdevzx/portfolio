@@ -30,7 +30,7 @@ const Hero = () => {
                     id="project"
                     left={false}
                     topic={true}
-                    image={"/images/levely.png"}
+                    image={`${process.env.PUBLIC_URL}/images/levely.png`}
                     title={"LEVELY FITNESS"}
                     stacks={"Java // Spring // PostgreSQL // Docker // React"}
                 description={"" +
@@ -47,7 +47,7 @@ const Hero = () => {
             <Project
                 left={true}
                 topic={false}
-                image={"/images/posting.png"}
+                image={`${process.env.PUBLIC_URL}/images/posting.png`}
                 title={"POSTING SOCIAL"}
                 stacks={"Java // Spring // PostgreSQL // Docker // Javascript"}
                 description={"" +

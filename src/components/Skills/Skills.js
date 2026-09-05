@@ -45,15 +45,15 @@ const Skills = () => {
                     </p>
                 </div>
                 <div className={"skills-container"}>
-                    <Tools image="/images/java.svg" name="Java" />
-                    <Tools image="/images/spring.svg" name="Spring" />
-                    <Tools image="/images/postgresql.svg" name="PostgreSQL" />
-                    <Tools image="/images/javascript.svg" name="Javascript" />
-                    <Tools image="/images/docker.svg" name="Docker" />
-                    <Tools image="/images/test.svg" name="Testes Automatizados" />
-                    <Tools image="/images/react.svg" name="React" />
-                    <Tools image="/images/tailwind.svg" name="Tailwind CSS" />
-                    <Tools image="/images/landing-page.svg" name="UI/UX Design" />
+                    <Tools image={`${process.env.PUBLIC_URL}/images/java.svg`} name="Java" />
+                    <Tools image={`${process.env.PUBLIC_URL}/images/spring.svg`} name="Spring" />
+                    <Tools image={`${process.env.PUBLIC_URL}/images/postgresql.svg`} name="PostgreSQL" />
+                    <Tools image={`${process.env.PUBLIC_URL}/images/javascript.svg`} name="Javascript" />
+                    <Tools image={`${process.env.PUBLIC_URL}/images/docker.svg`} name="Docker" />
+                    <Tools image={`${process.env.PUBLIC_URL}/images/test.svg`} name="Testes Automatizados" />
+                    <Tools image={`${process.env.PUBLIC_URL}/images/react.svg`} name="React" />
+                    <Tools image={`${process.env.PUBLIC_URL}/images/tailwind.svg`} name="Tailwind CSS" />
+                    <Tools image={`${process.env.PUBLIC_URL}/images/landing-page.svg`} name="UI/UX Design" />
 
                 </div>
             </div>

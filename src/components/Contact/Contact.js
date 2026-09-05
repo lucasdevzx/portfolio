@@ -25,19 +25,19 @@ const Contact = () => {
                        colaborações.
                    </p>
                    <Info
-                       image={"images/chat.svg"}
+                       image={`${process.env.PUBLIC_URL}/images/chat.svg`}
                        title={"Entendimento"}
                        subtitle={"Vou entender suas necessidades e os objetivos do seu projeto."}
 
                    />
                    <Info
-                       image={"images/idea.svg"}
+                       image={`${process.env.PUBLIC_URL}/images/idea.svg`}
                        title={"Estratégia"}
                        subtitle={"Proponho a melhor abordagem e solução para o seu desafio.."}
 
                    />
                    <Info
-                       image={"images/shuttle.svg"}
+                       image={`${process.env.PUBLIC_URL}/images/shuttle.svg`}
                        title={"execução"}
                        subtitle={"Transformarei a ideia em um produto de qualidade e com impacto."}
 

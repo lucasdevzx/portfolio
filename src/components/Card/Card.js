@@ -11,7 +11,7 @@ const Card = ({image, title, description, check}) => {
             <hr></hr>
             <p>{description}</p>
             <div className={"card-footer"}>
-                <img src={"images/check.svg"} alt={title} style={{width: '20px', height: '20px'}}/>
+                <img src={`${process.env.PUBLIC_URL}/images/check.svg`} alt={title} style={{width: '20px', height: '20px'}}/>
                 <p style={{fontSize: '0.875rem'}}>{check}</p>
             </div>
         </div>

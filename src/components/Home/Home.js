@@ -26,12 +26,12 @@ const Home = ({id}) => {
                     buscando evoluir como desenvolvedor e profissional.
                 </h2>
                 <div style={{ display: "flex", gap: "20px", marginTop: "20px" }}>
-                    <Links link={"https://github.com/lucasdevzx"} image={"/images/github.svg"} title={"GitHub"} />
-                    <Links link={"https://www.linkedin.com/in/silvalucasme/"} image={"/images/linkedin.svg"} title={"Linkedin"} />
-                    <Links link={"https://drive.google.com/file/d/1r9CjJ1r8MJoAiLuxg4ClAFFw4yMXGQrn/view?usp=sharing"} image={"/images/curriculum.svg"} title={"Currículo"} />
+                    <Links link={"https://github.com/lucasdevzx"} image={`${process.env.PUBLIC_URL}/images/github.svg`} title={"GitHub"} />
+                    <Links link={"https://www.linkedin.com/in/silvalucasme/"} image={`${process.env.PUBLIC_URL}/images/linkedin.svg`} title={"Linkedin"} />
+                    <Links link={"https://drive.google.com/file/d/1r9CjJ1r8MJoAiLuxg4ClAFFw4yMXGQrn/view?usp=sharing"} image={`${process.env.PUBLIC_URL}/images/curriculum.svg`} title={"Currículo"} />
                 </div>
             </div>
-            <img className={"background-image"} src="/images/shape.svg" alt="Imagem de fundo" />
+            <img className={"background-image"} src={`${process.env.PUBLIC_URL}/images/shape.svg`} alt="Imagem de fundo" />
         </div>
     )
 }

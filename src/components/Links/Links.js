@@ -7,7 +7,7 @@ const Links = ({link, image, title}) => {
             <a href={link} target="_blank" rel="noopener noreferrer">
                 <img src={image} alt={title} />
                 <p>{title}</p>
-                <img src={"/images/arrow-link.svg"} alt={"arrow"} style={{ width: "25px", height: "25px" }} />
+                <img src={`${process.env.PUBLIC_URL}/images/arrow-link.svg`} alt={"arrow"} style={{ width: "25px", height: "25px" }} />
             </a>
 
         </div>

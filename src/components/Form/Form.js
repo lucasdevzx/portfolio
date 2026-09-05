@@ -8,9 +8,7 @@ const Form = (
 ) => {
     return (
         <div className={"form"}>
-
-            <Info image={"/images/email.svg"} title={"Envie uma mensagem"} subtitle={"Retornarei o mais breve possível"} />
-
+            <Info image={`${process.env.PUBLIC_URL}/images/email.svg`} title={"Envie uma mensagem"} subtitle={"Retornarei o mais breve possível"} />
             <div className={"form-user"}>
                 <div className={"form-user-input"} >
                     <p>{name}</p>
