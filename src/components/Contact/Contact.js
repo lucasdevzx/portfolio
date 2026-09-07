@@ -6,7 +6,7 @@ import Form from "../Form/Form";
 const Contact = () => {
     return (
        <div id={"contact"} style={{minWidth: "100%", width: "100%", height: "100%", position: "relative"}}>
-           <Separate title={"0.5"} subtitle={"ENTRE EM CONTATO COMIGO"} />
+           <Separate title={"05. "} subtitle={"ENTRE EM CONTATO COMIGO"} />
            <div className={"contact"}>
 
                <div className={"contact-text"}>
@@ -38,13 +38,11 @@ const Contact = () => {
                    />
                    <Info
                        image={`${process.env.PUBLIC_URL}/images/shuttle.svg`}
-                       title={"execução"}
+                       title={"Execução"}
                        subtitle={"Transformarei a ideia em um produto de qualidade e com impacto."}
 
                    />
-
                </div>
-
                <div className={"contact-form"}>
                    <Form
                        name={"Nome"}
@@ -58,9 +56,7 @@ const Contact = () => {
                        messagePlaceholder={"Conte-me sobre seu projeto, objetivos e como posso ajudar..."}
                    />
                </div>
-
            </div>
-
        </div>
     )
 }
